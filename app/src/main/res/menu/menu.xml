@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|withText"  />
+
+
+    <item
+        android:id="@+id/sort_asc"
+        app:showAsAction="never"
+        android:title="Sort Ascending"/>
+
+    <item
+        android:id="@+id/sort_desc"
+        app:showAsAction="never"
+        android:title="Sort Descending"/>
+
+</menu>
